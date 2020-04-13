@@ -10,15 +10,21 @@ using System.Windows.Forms;
 
 namespace MiCalculadora
 {
-    public partial class Form1 : Form
+    public partial class laCalculadora : Form
     {
-        public Form1()
+        public laCalculadora()
         {
             InitializeComponent();
         }
 
         private void Form1_Resize(object sender, EventArgs e)
         {
+
+        }
+
+        private void calculadoraBotonCerrar_Click(object sender, EventArgs e)
+        {
+           this.Close();
 
         }
     }
