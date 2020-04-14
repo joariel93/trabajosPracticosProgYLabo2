@@ -46,7 +46,7 @@
             this.calculadoraNumeroDos.Name = "calculadoraNumeroDos";
             this.calculadoraNumeroDos.Size = new System.Drawing.Size(165, 29);
             this.calculadoraNumeroDos.TabIndex = 3;
-            this.calculadoraNumeroDos.Text = "Ingrese un número";
+            this.calculadoraNumeroDos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // calculadoraNumeroUno
             // 
@@ -55,7 +55,7 @@
             this.calculadoraNumeroUno.Name = "calculadoraNumeroUno";
             this.calculadoraNumeroUno.Size = new System.Drawing.Size(165, 29);
             this.calculadoraNumeroUno.TabIndex = 1;
-            this.calculadoraNumeroUno.Text = "Ingrese un número";
+            this.calculadoraNumeroUno.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // calculadoraBotonOperar
             // 

@@ -41,7 +41,24 @@ namespace Entidades
                     this.numero = ValidarNumero(value);
             }
         }
-        
-
+        public static double operator + (Numero numero1, Numero numero2)
+        {
+            return numero1.numero + numero2.numero;
+        }
+        public static double operator -(Numero numero1, Numero numero2)
+        {
+            return numero1.numero - numero2.numero;
+        }
+        public static double operator *(Numero numero1, Numero numero2)
+        {
+            return numero1.numero * numero2.numero;
+        }
+        public static double operator /(Numero numero1, Numero numero2)
+        {
+            if (numero2.numero == 0)
+                return double.MinValue;
+            else
+                return numero1.numero / numero2.numero;
+        }
     }
 }
