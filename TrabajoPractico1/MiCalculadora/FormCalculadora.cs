@@ -36,11 +36,22 @@ namespace MiCalculadora
         }
         private double Operar (string numero1, string numero2, string operador)
         {
-            Numero numeroUno = new Numero(numero1);
-            Numero numeroDos = new Numero(numero2);
-                        
+            Numero numeroUno = new Numero();
+            Numero numeroDos = new Numero();
+
+            numeroUno.SetNumero = numero1;
+            numeroDos.SetNumero = numero2;
+
             return Calculadora.Operar(numeroUno, numeroDos, operador);
 
+        }
+
+        private void calculadoraBotonLimpiar_Click(object sender, EventArgs e)
+        {
+            calculadoraOperadores.ResetText();
+            calculadoraResultado.Text="";
+            calculadoraNumeroUno.Clear();
+            calculadoraNumeroDos.Clear();
         }
     }
 }

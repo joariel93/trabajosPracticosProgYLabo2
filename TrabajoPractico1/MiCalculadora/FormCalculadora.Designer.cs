@@ -77,6 +77,7 @@
             this.calculadoraBotonLimpiar.TabIndex = 5;
             this.calculadoraBotonLimpiar.Text = "Limpiar";
             this.calculadoraBotonLimpiar.UseVisualStyleBackColor = true;
+            this.calculadoraBotonLimpiar.Click += new System.EventHandler(this.calculadoraBotonLimpiar_Click);
             // 
             // calculadoraBotonCerrar
             // 
