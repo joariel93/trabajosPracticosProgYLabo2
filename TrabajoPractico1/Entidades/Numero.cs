@@ -21,7 +21,7 @@ namespace Entidades
         }
         public Numero(string numero)
         {
-            this.numero=double.Parse(numero);
+            this.SetNumero=numero;
           
         }
 

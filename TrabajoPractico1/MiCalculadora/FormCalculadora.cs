@@ -36,11 +36,8 @@ namespace MiCalculadora
         }
         private double Operar (string numero1, string numero2, string operador)
         {
-            Numero numeroUno = new Numero();
-            Numero numeroDos = new Numero();
-
-            numeroUno.SetNumero = numero1;
-            numeroDos.SetNumero = numero2;
+            Numero numeroUno = new Numero(numero1);
+            Numero numeroDos = new Numero(numero2);
 
             return Calculadora.Operar(numeroUno, numeroDos, operador);
 
