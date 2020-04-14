@@ -66,6 +66,7 @@
             this.calculadoraBotonOperar.TabIndex = 4;
             this.calculadoraBotonOperar.Text = "Operar";
             this.calculadoraBotonOperar.UseVisualStyleBackColor = true;
+            this.calculadoraBotonOperar.Click += new System.EventHandler(this.calculadoraBotonOperar_Click);
             // 
             // calculadoraBotonLimpiar
             // 

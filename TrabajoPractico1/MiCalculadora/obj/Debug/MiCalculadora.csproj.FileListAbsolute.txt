@@ -8,3 +8,7 @@ E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalc
 E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
 E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\obj\Debug\MiCalculadora.exe
 E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\obj\Debug\MiCalculadora.pdb
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\bin\Debug\Entidades.exe
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\bin\Debug\Entidades.pdb
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\bin\Debug\Entidades.exe.config
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
