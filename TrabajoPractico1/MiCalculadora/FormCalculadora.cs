@@ -50,5 +50,40 @@ namespace MiCalculadora
             calculadoraNumeroUno.Clear();
             calculadoraNumeroDos.Clear();
         }
+
+        private void calculadoraBotonConvertirABinario_Click(object sender, EventArgs e)
+        {
+            if (calculadoraResultado.Text != "")
+                calculadoraResultado.Text = calcularBinario(calculadoraResultado.Text);
+            
+        }
+        private string calcularBinario (string strNumero)
+        {
+            StringBuilder aux=new StringBuilder();
+            int numero = default;
+            int.TryParse(strNumero ,out numero);
+            int binarioInt=default;
+
+            if (numero != 0 && numero != 1)
+            {
+                while (numero != 0 && numero != 1)
+                {
+                    binarioInt = numero % 2;
+                    numero = numero / 2;
+                    if (binarioInt == 1)
+                        aux.Append(0);
+                    else
+                        aux.Append(1);
+                }
+                aux.Append(0);
+
+
+                return aux.ToString();
+            }
+            else if (numero == 0)
+                return "0";
+            else
+                return "1";
+        }
     }
 }

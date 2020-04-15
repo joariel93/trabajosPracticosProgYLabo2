@@ -99,6 +99,7 @@
             this.calculadoraBotonConvertirABinario.TabIndex = 7;
             this.calculadoraBotonConvertirABinario.Text = "Convertir a Binario";
             this.calculadoraBotonConvertirABinario.UseVisualStyleBackColor = true;
+            this.calculadoraBotonConvertirABinario.Click += new System.EventHandler(this.calculadoraBotonConvertirABinario_Click);
             // 
             // calculadoraBotonConvertirADecimal
             // 
