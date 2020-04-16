@@ -24,7 +24,9 @@ namespace Entidades
             this.SetNumero=numero;
           
         }
-
+        /// <summary>
+        /// Valida que el string recibido sea un numero y lo convierte, caso contrario retorna 0
+        /// </summary>
         public double ValidarNumero(string strNumero)
         {
             double aux;

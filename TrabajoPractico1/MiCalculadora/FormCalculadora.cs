@@ -57,12 +57,23 @@ namespace MiCalculadora
                 calculadoraResultado.Text = calcularBinario(calculadoraResultado.Text);
             
         }
+        
+        #region Funciones para el calculo a binario
+        /// <summary>
+        /// Recibe un numero y retorna la parte entera del mismo en binario
+        /// </summary>
         private string calcularBinario (string strNumero)
         {
             StringBuilder aux=new StringBuilder();
             int numero = default;
-            int.TryParse(strNumero ,out numero);
+            if (!VerificarSiEsDecimal(strNumero))
+                int.TryParse(strNumero, out numero);
+            else
+                numero = int.Parse(PasarDeDecimalAEntero(strNumero));
+            
+
             int binarioInt=default;
+            string retorno;
 
             if (numero != 0 && numero != 1)
             {
@@ -70,20 +81,70 @@ namespace MiCalculadora
                 {
                     binarioInt = numero % 2;
                     numero = numero / 2;
-                    if (binarioInt == 1)
-                        aux.Append(0);
-                    else
-                        aux.Append(1);
+                    aux.Append(binarioInt);
                 }
-                aux.Append(0);
+                aux.Append(1);
 
+                retorno = aux.ToString();
 
-                return aux.ToString();
+                ;
+               
+                return VoltearString(retorno);
             }
             else if (numero == 0)
                 return "0";
             else
                 return "1";
         }
+
+        
+        /// <summary>
+        /// Retorna el string recibido invertido
+        /// </summary>
+        private string VoltearString (string bufferString)
+        {
+            char[] bufferChar=bufferString.ToCharArray();
+            char[] retorno=bufferChar.Reverse().ToArray();
+            string retornoString = new string(retorno);
+
+            return retornoString;
+        }
+
+        /// <summary>
+        /// Verifica que el numero que recibe sea entero
+        /// </summary>
+        private bool VerificarSiEsDecimal(string strNumero)
+        {
+            bool flag=default;
+            char[] verificador = strNumero.ToCharArray();
+
+            foreach (char item in verificador)
+            {
+                if (item == ',' || item == '.')
+                    return flag = true;
+            }
+            return flag;
+        }
+        /// <summary>
+        /// Recibe un numero en formato string y retorna el mismo entero.
+        /// </summary>
+        private string PasarDeDecimalAEntero(string strNumero)
+        {
+            char[] verificador = strNumero.ToCharArray();
+            StringBuilder retorno = new StringBuilder();
+
+            foreach (char item in verificador)
+            {
+                if (item == ',' || item == '.')
+                   break;
+                else
+                {
+                    retorno.Append(item);
+                }
+
+            }
+            return retorno.ToString();
+        }
+        #endregion
     }
 }
