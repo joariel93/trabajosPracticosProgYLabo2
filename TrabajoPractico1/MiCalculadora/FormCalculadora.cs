@@ -58,7 +58,15 @@ namespace MiCalculadora
             
         }
         
-        #region Funciones para el calculo a binario
+        private void calculadoraBotonConvertirADecimal_Click(object sender, EventArgs e)
+        {
+            if (calculadoraResultado.Text != "")
+                calculadoraResultado.Text = calcularDecimal(calculadoraResultado.Text);
+
+
+        }
+        
+        #region Funciones para el calculo a binario y viceversa
         /// <summary>
         /// Recibe un numero y retorna la parte entera del mismo en binario
         /// </summary>
@@ -103,7 +111,7 @@ namespace MiCalculadora
         /// </summary>
         private string VoltearString (string bufferString)
         {
-            char[] bufferChar=bufferString.ToCharArray();
+            char[] bufferChar= ConvertirStringEnArrayChar(bufferString);
             char[] retorno=bufferChar.Reverse().ToArray();
             string retornoString = new string(retorno);
 
@@ -145,6 +153,38 @@ namespace MiCalculadora
             }
             return retorno.ToString();
         }
+        
+        /// <summary>
+        /// Recibe un numero binario y retorna el mismo en decimal
+        /// </summary>
+        private string calcularDecimal(string numBinario)
+        {
+            char[] bufferChar = ConvertirStringEnArrayChar(VoltearString(numBinario));
+            double numeroDecimal = 0;
+            int i;
+
+            for( i=0;i<bufferChar.Length;i++)
+            {
+               if(bufferChar[i]=='1')
+                {
+                    numeroDecimal =numeroDecimal+Math.Pow(2,i);
+                }
+            }
+
+            return numeroDecimal.ToString();
+        }
+        /// <summary>
+        /// Recibe un string y devuelve una Array de chars
+        /// </summary>
+        private char[] ConvertirStringEnArrayChar (string str)
+        {
+            char[] bufferChar = str.ToCharArray();
+            return bufferChar;
+
+        }
+
         #endregion
+
+
     }
 }

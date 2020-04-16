@@ -110,6 +110,7 @@
             this.calculadoraBotonConvertirADecimal.TabIndex = 8;
             this.calculadoraBotonConvertirADecimal.Text = "Convertir a Decimal";
             this.calculadoraBotonConvertirADecimal.UseVisualStyleBackColor = true;
+            this.calculadoraBotonConvertirADecimal.Click += new System.EventHandler(this.calculadoraBotonConvertirADecimal_Click);
             // 
             // calculadoraResultado
             // 
