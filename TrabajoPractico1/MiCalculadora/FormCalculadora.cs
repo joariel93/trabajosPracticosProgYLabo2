@@ -77,8 +77,7 @@ namespace MiCalculadora
             if (!VerificarSiEsDecimal(strNumero))
                 int.TryParse(strNumero, out numero);
             else
-                numero = int.Parse(PasarDeDecimalAEntero(strNumero));
-            
+                numero = int.Parse(PasarDeDecimalAEntero(strNumero));           
 
             int binarioInt=default;
             string retorno;
@@ -92,11 +91,8 @@ namespace MiCalculadora
                     aux.Append(binarioInt);
                 }
                 aux.Append(1);
-
                 retorno = aux.ToString();
-
-                ;
-               
+                
                 return VoltearString(retorno);
             }
             else if (numero == 0)
