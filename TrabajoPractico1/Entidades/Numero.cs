@@ -61,6 +61,34 @@ namespace Entidades
             else
                 return numero1.numero / numero2.numero;
         }
+
+        public string DecimalBinario(double bufNumero)
+        {
+            StringBuilder aux = new StringBuilder();
+            int numero = (int)bufNumero;
+            int binarioInt = default;
+            string retorno;
+
+            if (numero != 0 && numero != 1)
+            {
+                while (numero != 0 && numero != 1)
+                {
+                    binarioInt = numero % 2;
+                    numero = numero / 2;
+                    aux.Append(binarioInt);
+                }
+                aux.Append(1);
+                retorno = aux.ToString();
+
+                return InvertirString(retorno);
+            }
+            else if (numero == 0)
+                return "0";
+            else
+                return "1";
+        }
+
+
         /// <summary>
         /// Recibe un numero string y retorna la parte entera del mismo en binario string
         /// </summary>
