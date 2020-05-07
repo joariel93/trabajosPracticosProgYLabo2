@@ -31,3 +31,13 @@ E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\
 E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\TP-02\obj\Debug\TP-02.exe
 E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\TP-02\obj\Debug\TP-02.pdb
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\bin\Debug\TP-02.exe.config
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\bin\Debug\TP-02.exe
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\bin\Debug\TP-02.pdb
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\bin\Debug\Entidades.dll
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\bin\Debug\Entidades.pdb
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\obj\Debug\TP-02.exe
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico2\TP-02\obj\Debug\TP-02.pdb
