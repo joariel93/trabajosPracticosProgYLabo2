@@ -1,0 +1,27 @@
+Clase: Programacion
+Profesor: Apellido: Juarez
+Nombre: Roberto
+Nacionalidad: Argentino
+DNI: 32234456
+Legajo: 2
+CLASES DEL DIA:
+Laboratorio
+Laboratorio
+
+
+Apellido: Lopez
+Nombre: Juan
+Nacionalidad: Argentino
+DNI: 12234456
+Legajo: 1
+TOMA CLASE DE Programacion
+Estado de cuenta: Becado
+
+Apellido: Gonzalez
+Nombre: Carlos
+Nacionalidad: Argentino
+DNI: 12236456
+Legajo: 5
+TOMA CLASE DE Programacion
+Estado de cuenta: AlDia
+
