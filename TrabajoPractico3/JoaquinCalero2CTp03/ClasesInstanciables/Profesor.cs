@@ -26,7 +26,7 @@ namespace ClasesInstanciables
         /// <summary>
         /// Constructor por defecto de clase
         /// </summary>
-        public Profesor():this(default,default,default,default,default)
+        public Profesor():base()
         {
             
         }

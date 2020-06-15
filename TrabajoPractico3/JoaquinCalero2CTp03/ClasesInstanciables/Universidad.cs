@@ -46,7 +46,7 @@ namespace ClasesInstanciables
             }
         }
 
-        public List<Profesor> Profesores
+        public List<Profesor> Instructores
         {
             get
             {
@@ -155,7 +155,7 @@ namespace ClasesInstanciables
         }
         public static bool operator ==(Universidad u, Profesor i)
         {
-            foreach (Profesor item in u.Profesores)
+            foreach (Profesor item in u.Instructores)
             {
                 if (item == i)
                     return true;
