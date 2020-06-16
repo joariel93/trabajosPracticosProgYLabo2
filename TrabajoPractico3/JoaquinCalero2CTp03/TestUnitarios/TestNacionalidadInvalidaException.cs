@@ -1,6 +1,6 @@
 ﻿using System;
 using Excepciones;
-using ClasesAbstractas;
+using EntidadesAbstractas;
 using ClasesInstanciables;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;

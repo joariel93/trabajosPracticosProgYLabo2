@@ -5,7 +5,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     
     public abstract class Universitario:Persona
@@ -56,15 +56,32 @@ namespace ClasesAbstractas
         /// <returns></returns>
         protected abstract string ParticiparEnClase();
 
-
+        /// <summary>
+        /// Sobrecarga del metodo Equals que compara por los tipos de objetos
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public override bool Equals(object obj)
         {
             return this.GetType()==obj.GetType();
         }
+        /// <summary>
+        /// Sobre carga del operador != que compara 2 universitarios por su tipo, legajo y DNI
+        /// </summary>
+        /// <param name="pg1"></param>
+        /// <param name="pg2"></param>
+        /// <returns></returns>
         public static bool operator !=(Universitario pg1, Universitario pg2)
         {
             return !(pg1 == pg2);
         }
+
+        /// <summary>
+        /// Sobre carga del operador == que compara 2 universitarios por su tipo, legajo y DNI
+        /// </summary>
+        /// <param name="pg1"></param>
+        /// <param name="pg2"></param>
+        /// <returns></returns>
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
             if (pg1.Equals(pg2) && pg1.legajo == pg2.legajo || pg1.Dni == pg2.Dni)

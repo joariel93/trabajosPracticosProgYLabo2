@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using Excepciones;
 
-namespace ClasesAbstractas
+namespace EntidadesAbstractas
 {
     
     public abstract class Persona

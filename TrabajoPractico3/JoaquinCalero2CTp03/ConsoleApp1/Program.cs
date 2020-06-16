@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using ClasesInstanciables;
 using Excepciones;
-using EntidadesAbstractas = ClasesAbstractas;
 
 namespace ConsoleApp1
 {

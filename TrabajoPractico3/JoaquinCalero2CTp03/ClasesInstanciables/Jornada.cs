@@ -90,6 +90,10 @@ namespace ClasesInstanciables
             return datos.ToString();
         }
 
+        /// <summary>
+        /// Hace publicos todos los datos de la Jornada
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             StringBuilder retorno = new StringBuilder();
@@ -103,7 +107,12 @@ namespace ClasesInstanciables
 
             return retorno.ToString(); 
         }
-
+        /// <summary>
+        /// Una Jornada es igual a un alumno si este ya se encuentra en ella
+        /// </summary>
+        /// <param name="jornada"></param>
+        /// <param name="alumno"></param>
+        /// <returns></returns>
         public static bool operator == (Jornada jornada, Alumno alumno)
         {
             foreach (Alumno item in jornada.Alumnos)
