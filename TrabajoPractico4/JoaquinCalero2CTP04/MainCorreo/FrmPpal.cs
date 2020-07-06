@@ -110,7 +110,13 @@ namespace MainCorreo
 
         private void FrmPpal_Load(object sender, EventArgs e)
         {
+            PaqueteDAO.TenemosUnProblema += ProblemaConSQL;
             this.mskdTxtBx.Select();
+        }
+
+        private void ProblemaConSQL(string mensaje)
+        {
+            MessageBox.Show(mensaje);
         }
     }
 }
