@@ -1,0 +1,5 @@
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico4\TP4\Entidades\bin\Debug\Entidades.dll
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico4\TP4\Entidades\bin\Debug\Entidades.pdb
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico4\TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico4\TP4\Entidades\obj\Debug\Entidades.dll
+E:\clases programacion 2 TPS\trabajosPracticosProgYLabo2\TrabajoPractico4\TP4\Entidades\obj\Debug\Entidades.pdb
